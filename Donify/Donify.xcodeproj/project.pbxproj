@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA08AA202735A5150059AA9F /* DonifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA08AA1F2735A5150059AA9F /* DonifyApp.swift */; };
+		CA08AA222735A5150059AA9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA08AA212735A5150059AA9F /* ContentView.swift */; };
+		CA08AA242735A5170059AA9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA08AA232735A5170059AA9F /* Assets.xcassets */; };
+		CA08AA272735A5170059AA9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA08AA262735A5170059AA9F /* Preview Assets.xcassets */; };
+		CA08AA312735A5170059AA9F /* DonifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA08AA302735A5170059AA9F /* DonifyTests.swift */; };
+		CA08AA3B2735A5170059AA9F /* DonifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA08AA3A2735A5170059AA9F /* DonifyUITests.swift */; };
+		CA08AA3D2735A5170059AA9F /* DonifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA08AA3C2735A5170059AA9F /* DonifyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA08AA2D2735A5170059AA9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA08AA142735A5150059AA9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA08AA1B2735A5150059AA9F;
+			remoteInfo = Donify;
+		};
+		CA08AA372735A5170059AA9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA08AA142735A5150059AA9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA08AA1B2735A5150059AA9F;
+			remoteInfo = Donify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA08AA1C2735A5150059AA9F /* Donify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Donify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA08AA1F2735A5150059AA9F /* DonifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonifyApp.swift; sourceTree = "<group>"; };
+		CA08AA212735A5150059AA9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA08AA232735A5170059AA9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA08AA262735A5170059AA9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA08AA2C2735A5170059AA9F /* DonifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA08AA302735A5170059AA9F /* DonifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonifyTests.swift; sourceTree = "<group>"; };
+		CA08AA362735A5170059AA9F /* DonifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA08AA3A2735A5170059AA9F /* DonifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonifyUITests.swift; sourceTree = "<group>"; };
+		CA08AA3C2735A5170059AA9F /* DonifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA08AA192735A5150059AA9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA08AA292735A5170059AA9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA08AA332735A5170059AA9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA08AA132735A5150059AA9F = {
+			isa = PBXGroup;
+			children = (
+				CA08AA1E2735A5150059AA9F /* Donify */,
+				CA08AA2F2735A5170059AA9F /* DonifyTests */,
+				CA08AA392735A5170059AA9F /* DonifyUITests */,
+				CA08AA1D2735A5150059AA9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA08AA1D2735A5150059AA9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA08AA1C2735A5150059AA9F /* Donify.app */,
+				CA08AA2C2735A5170059AA9F /* DonifyTests.xctest */,
+				CA08AA362735A5170059AA9F /* DonifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA08AA1E2735A5150059AA9F /* Donify */ = {
+			isa = PBXGroup;
+			children = (
+				CA08AA1F2735A5150059AA9F /* DonifyApp.swift */,
+				CA08AA212735A5150059AA9F /* ContentView.swift */,
+				CA08AA232735A5170059AA9F /* Assets.xcassets */,
+				CA08AA252735A5170059AA9F /* Preview Content */,
+			);
+			path = Donify;
+			sourceTree = "<group>";
+		};
+		CA08AA252735A5170059AA9F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA08AA262735A5170059AA9F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA08AA2F2735A5170059AA9F /* DonifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA08AA302735A5170059AA9F /* DonifyTests.swift */,
+			);
+			path = DonifyTests;
+			sourceTree = "<group>";
+		};
+		CA08AA392735A5170059AA9F /* DonifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA08AA3A2735A5170059AA9F /* DonifyUITests.swift */,
+				CA08AA3C2735A5170059AA9F /* DonifyUITestsLaunchTests.swift */,
+			);
+			path = DonifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA08AA1B2735A5150059AA9F /* Donify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA08AA402735A5170059AA9F /* Build configuration list for PBXNativeTarget "Donify" */;
+			buildPhases = (
+				CA08AA182735A5150059AA9F /* Sources */,
+				CA08AA192735A5150059AA9F /* Frameworks */,
+				CA08AA1A2735A5150059AA9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Donify;
+			productName = Donify;
+			productReference = CA08AA1C2735A5150059AA9F /* Donify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA08AA2B2735A5170059AA9F /* DonifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA08AA432735A5170059AA9F /* Build configuration list for PBXNativeTarget "DonifyTests" */;
+			buildPhases = (
+				CA08AA282735A5170059AA9F /* Sources */,
+				CA08AA292735A5170059AA9F /* Frameworks */,
+				CA08AA2A2735A5170059AA9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA08AA2E2735A5170059AA9F /* PBXTargetDependency */,
+			);
+			name = DonifyTests;
+			productName = DonifyTests;
+			productReference = CA08AA2C2735A5170059AA9F /* DonifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA08AA352735A5170059AA9F /* DonifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA08AA462735A5170059AA9F /* Build configuration list for PBXNativeTarget "DonifyUITests" */;
+			buildPhases = (
+				CA08AA322735A5170059AA9F /* Sources */,
+				CA08AA332735A5170059AA9F /* Frameworks */,
+				CA08AA342735A5170059AA9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA08AA382735A5170059AA9F /* PBXTargetDependency */,
+			);
+			name = DonifyUITests;
+			productName = DonifyUITests;
+			productReference = CA08AA362735A5170059AA9F /* DonifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA08AA142735A5150059AA9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					CA08AA1B2735A5150059AA9F = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					CA08AA2B2735A5170059AA9F = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = CA08AA1B2735A5150059AA9F;
+					};
+					CA08AA352735A5170059AA9F = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = CA08AA1B2735A5150059AA9F;
+					};
+				};
+			};
+			buildConfigurationList = CA08AA172735A5150059AA9F /* Build configuration list for PBXProject "Donify" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA08AA132735A5150059AA9F;
+			productRefGroup = CA08AA1D2735A5150059AA9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA08AA1B2735A5150059AA9F /* Donify */,
+				CA08AA2B2735A5170059AA9F /* DonifyTests */,
+				CA08AA352735A5170059AA9F /* DonifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA08AA1A2735A5150059AA9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA08AA272735A5170059AA9F /* Preview Assets.xcassets in Resources */,
+				CA08AA242735A5170059AA9F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA08AA2A2735A5170059AA9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA08AA342735A5170059AA9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA08AA182735A5150059AA9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA08AA222735A5150059AA9F /* ContentView.swift in Sources */,
+				CA08AA202735A5150059AA9F /* DonifyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA08AA282735A5170059AA9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA08AA312735A5170059AA9F /* DonifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA08AA322735A5170059AA9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA08AA3B2735A5170059AA9F /* DonifyUITests.swift in Sources */,
+				CA08AA3D2735A5170059AA9F /* DonifyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA08AA2E2735A5170059AA9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA08AA1B2735A5150059AA9F /* Donify */;
+			targetProxy = CA08AA2D2735A5170059AA9F /* PBXContainerItemProxy */;
+		};
+		CA08AA382735A5170059AA9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA08AA1B2735A5150059AA9F /* Donify */;
+			targetProxy = CA08AA372735A5170059AA9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA08AA3E2735A5170059AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA08AA3F2735A5170059AA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA08AA412735A5170059AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Donify/Preview Content\"";
+				DEVELOPMENT_TEAM = W39TA4MM37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tdlab.Donify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA08AA422735A5170059AA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Donify/Preview Content\"";
+				DEVELOPMENT_TEAM = W39TA4MM37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tdlab.Donify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA08AA442735A5170059AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W39TA4MM37;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tdlab.DonifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Donify.app/Donify";
+			};
+			name = Debug;
+		};
+		CA08AA452735A5170059AA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W39TA4MM37;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tdlab.DonifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Donify.app/Donify";
+			};
+			name = Release;
+		};
+		CA08AA472735A5170059AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W39TA4MM37;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tdlab.DonifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Donify;
+			};
+			name = Debug;
+		};
+		CA08AA482735A5170059AA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W39TA4MM37;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tdlab.DonifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Donify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA08AA172735A5150059AA9F /* Build configuration list for PBXProject "Donify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA08AA3E2735A5170059AA9F /* Debug */,
+				CA08AA3F2735A5170059AA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA08AA402735A5170059AA9F /* Build configuration list for PBXNativeTarget "Donify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA08AA412735A5170059AA9F /* Debug */,
+				CA08AA422735A5170059AA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA08AA432735A5170059AA9F /* Build configuration list for PBXNativeTarget "DonifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA08AA442735A5170059AA9F /* Debug */,
+				CA08AA452735A5170059AA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA08AA462735A5170059AA9F /* Build configuration list for PBXNativeTarget "DonifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA08AA472735A5170059AA9F /* Debug */,
+				CA08AA482735A5170059AA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA08AA142735A5150059AA9F /* Project object */;
+}
